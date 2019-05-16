@@ -47,7 +47,7 @@ module Enumerable
             return true if yield(self[i])
             i+=1
         end 
-        true  
+        false  
     end
 
     def my_count
@@ -86,12 +86,12 @@ module Enumerable
 end
 
 array = [1,2,3]
-
+p array.my_any?{|x| x < 0 }
 array.my_each{|n| puts n}
 array.my_each_with_index{|n, index| puts "#{n},#{index}"}
 p array.my_select{|n| n == 1}
 p array.my_all?{|n| n != nil}
-p array.my_any?{|n| n == 1}
+
 p array.my_count{|n| n == 3}
 p array.my_map{|n| n ** 10}
 p array.my_inject{|sum, n| n*25}
