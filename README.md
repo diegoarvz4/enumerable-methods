@@ -1,23 +1,44 @@
 
-# Project: Enumerable Methods
+# Rails First Application
 
-## Brief introduction
+> This is a basic practice for making my own enumarable methods in ruby
 
-This is a Ruby Project in which the enumerable module is used to creat new iteration methods with arrays and hashes.
+## Built With
 
-## Skills demonstrated after completing the project
+- Ruby
 
-Enumerables
+## Getting Started
 
-Blocks
+To get a local copy up and running follow these simple example steps.
 
-Iteration
+## Prerequisites
+  Ruby
 
-Arrays
+## Setup
+  Clone or download this Repository.
 
-Hashes
 
-## Contributor
+## Usage
+  `$ ruby enumerable-methods.rb`
 
-[Diego Arvizu](https://github.com/diegoarvz4)
+# Authors
 
+## 👤 **Diego Luis Arvizu Gutiérrez**
+
+- Github: [@diegoarvz4](https://github.com/diegoarvz4)
+- Twitter: [@Diego Arvz](https://twitter.com/Darvizu_gutier)
+- Linkedin: [/in/diego-arvz](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is Licensed under MIT
